@@ -1,6 +1,6 @@
 <?php
 include ("function.php");
-echo "===========================\n";
+		echo "===========================\n";
 		echo " SPAM BOM SMS & EMAIL\n";
 		echo " GUNAKAN DENGAN BIJAK!\n";
 		echo " @diffamr\n";
@@ -9,7 +9,7 @@ echo "===========================\n";
 		echo " List Tools :\n- BAKMI GM (SMS) = 1 \n- MQPAY (EMAIL) = 2\n- PizzaHUT (SMS) = 3 \n Pilih Mana? : ";
 		$type = trim(fgets(STDIN));
 		if ($type == 1) {
-echo "===========================\n";
+		echo "===========================\n";
 		echo " Spam BOM SMS BAKMI GM\n";
 		echo " Nomor? (ex : 62xxx)\n Input : ";
 		$phone = trim(fgets(STDIN));
