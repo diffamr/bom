@@ -84,7 +84,7 @@ while($i < $jmlh) {
     $gotp = curl('https://phr.gms.digital/api/user/getOTP', $gtop, $headers);
     $gots = json_decode($gotp[1]); 
     if($gots == true ){
-        echo "Success\n";
+        echo "$i. Success\n";
     }
   $i++;
   }
